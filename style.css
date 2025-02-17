@@ -10,11 +10,40 @@ body {
   align-items: center;
 }
 
-h1 {
+.css-is-awesome {
   width: 250px;
   font-size: 3.5rem;
   border: 4px solid;
   padding: 40px;
   text-transform: uppercase;
-  overflow-wrap: break-word;
+  container-type: inline-size;
+  /*width: min-content;
+   overflow-x: scroll;
+    overflow-wrap: break-word;  */
 }
+
+.css-is-awesome > p {
+  font-size: max(1rem, 19cqi);
+}
+
+
+/*
+.css-is-awesome {
+  scrollbar-width: auto;
+  scrollbar-color: #fff #000;
+}
+
+.css-is-awesome ::-webkit-scrollbar {
+  height: 24px;
+}
+
+.css-is-awesome ::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.css-is-awesome ::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 100px;
+  border: 5px solid #000;
+}
+*/
